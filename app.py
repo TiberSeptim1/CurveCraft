@@ -34,7 +34,7 @@ def plot_rose(sc, n):
                     x0=0, y0=0,
                     x1=r1*np.cos(angle),
                     y1=r1*np.sin(angle),
-                    line=dict(color='white',width=1 )
+                    line=dict(color='white',width=1, dash='dash')
                         )
     
     fig.update_layout( template="seaborn", title='Rose Curve', xaxis=dict(scaleanchor='y'))
